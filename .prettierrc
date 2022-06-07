@@ -1,0 +1,11 @@
+{
+  "importOrder": [
+    "^@(api|hooks|components|modules|pages|common|sharedTypes|theme|utils|lib)/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 120,
+  "singleQuote": true,
+  "trailingComma": "all"
+}

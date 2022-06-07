@@ -1,0 +1,1 @@
+export { QuickDeposit } from './QuickDeposit';

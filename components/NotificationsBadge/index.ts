@@ -1,0 +1,1 @@
+export { NotificationsBadge } from './NotificationsBadge';

@@ -1,0 +1,13 @@
+WORKDIR /build
+
+COPY . .
+
+RUN chown -R node:node /app/node_modules && \
+    yarn install --frozen-lockfile && \
+    rm -rf node_modules/@next/swc-linux-x64-gnu &&\
+    yarn build-storybook
+
+FROM nginx:stable-alpine AS runner
+
+RUN  rm -rf /usr/share/nginx/html/*
+COPY --from=builder /build/storybook-static/ /usr/share/nginx/html

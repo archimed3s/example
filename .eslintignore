@@ -1,0 +1,12 @@
+__mocks__/fileMock.js
+__mocks__/slugMock.js
+__mocks__/iron-session/next.js
+__mocks__/styleMock.js
+/docs
+coverage/
+cypress/
+jest.config.js
+scripts/
+sentry.client.config.js
+sentry.server.config.js
+test.env.js

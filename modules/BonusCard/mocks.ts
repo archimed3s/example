@@ -1,0 +1,58 @@
+import { BonusCardProgressProps, BonusCardProps } from '@modules/BonusCard/BonusCard';
+
+export const bonusCards: (BonusCardProps & BonusCardProgressProps)[] = [
+  {
+    id: 'blue1',
+    variant: 'blue',
+    bonusName: 'The bonus card title that may take up to two lines in height',
+    endsAt: '2021/11/30',
+    progress: 26,
+    wager: '€420',
+    remaining: '26% (€140)',
+  },
+  {
+    id: 'green1',
+    variant: 'green',
+    bonusName: 'The bonus card title',
+    endsAt: '2021/11/30',
+    progress: 26,
+    wager: '€420',
+    remaining: '26% (€140)',
+  },
+  {
+    id: 'purple1',
+    variant: 'purple',
+    bonusName: 'The bonus card title',
+    endsAt: '2021/11/30',
+    progress: 26,
+    wager: '€420',
+    remaining: '26% (€140)',
+  },
+  {
+    id: 'teal1',
+    variant: 'teal',
+    bonusName: 'The bonus card title that may take up to two lines in height',
+    endsAt: '2021/11/30',
+    progress: 26,
+    wager: '€420',
+    remaining: '26% (€140)',
+  },
+  {
+    id: 'orange1',
+    variant: 'orange',
+    bonusName: 'The bonus card title',
+    endsAt: '2021/11/30',
+    progress: 26,
+    wager: '€420',
+    remaining: '26% (€140)',
+  },
+  {
+    id: 'coral1',
+    variant: 'coral',
+    bonusName: 'The bonus card title',
+    endsAt: '2021/11/30',
+    progress: 26,
+    wager: '€420',
+    remaining: '26% (€140)',
+  },
+];
